@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ministry of Health and Welfare</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap-theme.min.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- mega menu-->
+    <link rel="stylesheet" href="assets/css/megamenu.css">
+    <!-- slick 輪播-->
+    <link rel="stylesheet" href="assets/module/slick/slick.css">
+    <link rel="stylesheet" href="assets/module/slick/slick-theme.css">
+    <!-- slick 輪播自訂CSS -->
+    <link rel="stylesheet" href="css/slick-slide.css">
+    <!-- fullcalendar 自適應行事曆 -->
+    <link rel="stylesheet" href="assets/module/fullcalendar-2.3.1/fullcalendar.css">
+    <link rel="stylesheet" href="assets/module/fullcalendar-2.3.1/fullcalendar.print.css" media='print'>
+    <!--fontello icon font -->
+    <link rel="stylesheet" href="assets/module/fontello/css/fontello.css">
+    <!-- 自訂CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.offcanvas.css">
+    <link rel="stylesheet" href="css/customize.css">
+</head>
+
+<body><a class="goCenter" href="#mainContent" tabindex="1">按 Enter 到主內容區</a>
+    <header id="Header">
+        <div class="navbar navbar-default megamenu" role="navigation">
+            <div class="container Topheader">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#offcanvas-left" id="menubtn"> <span class="sr-only">Toggle navigation</span><i class="icon-menu"></i> </button>
+                    <h1 class="Logo"> <a href="../index.html"><img src="images/logo.png" alt="衛生福利部 Ministry of Health and Welfare"></a> </h1>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#offcanvas-right"> <span class="sr-only">Toggle navigation</span><i class="icon-search"></i> </button>
+                </div>
+                <div class="collapse navbar-collapse" id="offcanvas-right" role="navigation">
+                    <div class="pull-sm-right pull-md-right pull-lg-right">
+                        <a href="#au" id="au" title="導覽列" class="accesskey" accesskey="U" tabindex="2">:::</a>
+                        <ul class="nav navbar-nav Topnav">
+                            <li><a href="javascript:;" tabindex="3">Sitemap</a></li>
+                            <li><a href="javascript:;" tabindex="4">Mailbox</a></li>
+                            <li><a href="javascript:;" tabindex="5">Glossary</a></li>
+                            <li><a href="javascript:;" tabindex="6">中文版</a></li>
+                            <li><a href="javascript:;" tabindex="7">RSS</a></li>
+                            <li><a href="javascript:;" tabindex="8">Home</a></li>
+                        </ul>
+                        <!--search star -->
+                        <div class="Search">
+                            <form class="navbar-form pull-sm-right pull-md-right pull-lg-right" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Keyword" accesskey="S">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-default" value="開始查詢"> <span class="glyphicon glyphicon-search"> </span></button>
+                                    </span>
+                                </div>
+                                <!-- <div class="AdvSearch"><a href="javascript:;">進階</a></div>
+              <div class="HotKeywords">熱門關鍵字：<a href="javascript:;">十大死因</a> <a href="javascript:;">糖尿病</a> <a href="javascript:;">癌症</a><a href="javascript:;">登革熱</a> </div> -->
+                            </form>
+                        </div>
+                        <!--search end -->
+                    </div>
+                </div>
+                <!--menu start -->
+                <div class="Topmenu" id="offcanvas-left" role="navigation">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="javascript:;">About MOHW</a>
+                                <ul>
+                                    <li><a href="javascript:;" title="Mission">Mission</a></li>
+                                    <li><a href="javascript:;" title="The Minister">The Minister</a></li>
+                                    <li><a href="javascript:;" title="The Deputy Ministers">The Deputy Ministers</a></li>
+                                    <li><a href="javascript:;" title="The Vice Minister">The Vice Minister</a></li>
+                                    <li><a href="javascript:;" title="Secretary General">Secretary General</a></li>
+                                    <li><a href="javascript:;" title="Organization">Organization</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">News Rooms</a>
+                                <ul>
+                                    <li><a href="javascript:;" title="MOYW News">MOYW News</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">Laws & Regulations</a>
+                                <ul>
+                                    <li><a href="javascript:;" title="Department of Medical Affairs">Department of Medical Affairs</a></li>
+                                    <li><a href="javascript:;" title="Department of Protective Sercices">Department of Protective Sercices</a></li>
+                                    <li><a href="javascript:;" title="Department of Social Assistance and Social Work">Department of Social Assistance and Social Work</a></li>
+                                    <li><a href="javascript:;" title="Social Insurance-related">Social Insurance-related</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">Statistics & Publications </a>
+                                <ul>
+                                    <li><a href="javascript:;" title="Statistics">Statistics</a> </li>
+                                    <li><a href="javascript:;" title="Publications">Publications</a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">Links</a>
+                                <ul>
+                                    <li><a href="javascript:;" title="Medical Travel">Medical Travel</a></li>
+                                    <li><a href="javascript:;" title="Other Government Sites">Other Government Sites</a></li>
+                                </ul>
+                            </li>
+                            <!--下面此段要再畫面小於768時，才出現 -->
+                            <!--  <li class="nav visible-xs"><a href="javascript:;">中文版</a></li>
+                            <li class="nav visible-xs"><a href="javascript:;">Home</a></li> -->
+                        </ul>
+                    </nav>
+                    <div class="Topnav2 visible-xs">
+                        <ul>
+                            <li><a href="javascript:;">中文版</a></li>
+                            <li><a href="javascript:;">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--menu end -->
+            </div>
+        </div>
+    </header>
+    <!--MainContent start -->
+    <section class="MainContent" id="mainContent">
+        <a class="accesskey" href="#aC" id="aC" accesskey="C" title="主要內容區">:::</a>
+        <!--Block_banner start -->
+        <div class="Block_banner">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!-- 即時資訊 start -->
+                        <div class="bannerimg">
+                            <a href="#"><img src="images/banner01.png" alt=""></a>
+                        </div>
+                        <!-- 即時資訊 start -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Block_banner end -->
+        <!--第一組 start -->
+        <div class="Block1 hidden">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!-- 即時資訊 start -->
+                        <div class="immediate">Judicial reform country is the meeting "solicitation" has been launched, from now until December 31, please go to the website of the presidential palace, or call the legal aid foundation reservation line 02-33226666, welcome to participate in the community together! <br /> The Presidential Office is the exclusive web site of the conference:<a href="https://justice.president.gov.tw/"> https://justice.president.gov.tw/</a></div>
+                        <!-- 即時資訊 start -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第一組 end -->
+        <!--第三組 start -->
+        <div class="Block3">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!--第一個頁籤組 start-->
+                        <div class="tabSet">
+                            <div class="tabs">
+                                <h2 class="tabtitle active"><a title="MOHW News " href="#">MOHW News </a></h2>
+                                <!--選到的頁籤項目-->
+                                <div class="tabContent">
+                                    <ul>
+                                        <li><a href="#"><span>2016/11/16</span>National Eye Bank of Taiwan Signs Memorandum of Cooperation with SightLife of the US</a></li>
+                                        <li><a href="#"><span>2016/08/18</span>Executive Yuan: joint night market inspection, tracing ingredient sources and ensuring food safety</a></li>
+                                        <li><a href="#"><span>2016/07/12</span>Taiwan CDC develops Orange Card and works with the WDA to educate arriving foreign workers about Zika virus</a></li>
+                                        <li><a href="#"><span>2016/07/11</span>Supporting “World Population Day,” “Investing in Teenage Girl’s Future”</a></li>
+                                        <li><a href="#"><span>2016/07/11</span>Reform of NHI Review System to Make Reviewers Identifiable and Ensure Better Review Quality</a></li>
+                                    </ul>
+                                    <div class="more"><a href="#">more</a></div>
+                                </div>
+                                <h2 class="tabtitle"><a title="Taiwan News" href="#">Taiwan News</a></h2>
+                                <!--非選到的頁籤項目-->
+                                <div class="tabContent">
+                                    <ul>
+                                        <li><a href="#"><span>2016/07/22</span>Taiwan Today</a></li>
+                                    </ul>
+                                    <div class="more"><a href="#">more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第一個頁籤組 end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第三組 end -->
+        <!--第五組 start -->
+        <div class="Block5">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <!-- 主題網站專區 start-->
+                        <div class="theme">
+                            <h2><span>MOHW Affiliate Organizations</span></h2>
+                            <ul>
+                                <li><a href="#">Health Promotion Administration</a></li>
+                                <li><a href="#">Center for Disease Control</a></li>
+                                <li><a href="#">Food and Drug Administration</a></li>
+                                <li><a href="#">National Health Insurance</a></li>
+                                <li><a href="#">National Health Research Institutes</a></li>
+                            </ul>
+                        </div>
+                        <!-- 主題網站專區 end-->
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <!-- 常用查詢 start-->
+                        <div class="usedsearch">
+                            <h2><span>Affiliate Hospitals</span></h2>
+                            <ul>
+                                <li><a href="#">Chest Hospital</a></li>
+                                <li><a href="#">Keelung Hosptial</a></li>
+                                <li><a href="#">Taipei Hosptial</a></li>
+                                <li><a href="#">Tao-Yuan Hospital</a></li>
+                                <li><a href="#">Taichung Hospita</a></li>
+                            </ul>
+                        </div>
+                        <!-- 常用查詢 end-->
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <!-- 常用查詢 start-->
+                        <div class="usedsearch">
+                            <h2><span>Other Govenment Sites</span></h2>
+                            <ul>
+                                <li><a href="#">Ministry of Interior</a></li>
+                                <li><a href="#">Taiwan Railway Adminstration</a></li>
+                                <li><a href="#">Chunghwa Post</a></li>
+                                <li><a href="#">Ministry of Science and Technology</a></li>
+                                <li><a href="#">Ministry of Justice</a></li>
+                            </ul>
+                        </div>
+                        <!-- 常用查詢 end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第五組 end -->
+        <!--第六組 start -->
+        <div class="Block6">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <h2><span>Banner</span></h2>
+                        <!--宣傳訊息 start -->
+                        <div class="ad">
+                            <ul>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message01_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message02_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message03_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message04_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message05_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message06_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message07_e.jpg" alt="banner名稱"></a> </li>
+                                <li> <a href="#" title="另開視窗連結至banner名稱"><img src="images/message08_e.jpg" alt="banner名稱"></a> </li>
+                            </ul>
+                        </div>
+                        <!--主題網站 end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第六組 end -->
+        <!--第七組 fatfoot start -->
+        <div class="Block7 hidden-xs">
+            <div class="container">
+                <div class="row clearfix ">
+                    <div class="col-md-12 ">
+                        <!--FatFooter -->
+                        <div id="FatFooter">
+                             <button type="button" name="展開選單/OPEN" aria-label="導覽選單展開/收合" class="btn btn-fatfooter">收合</button>
+                            <nav>
+                                <ul>
+                                    <li><a href="javascript:;">About MOHW</a>
+                                        <ul>
+                                            <li><a href="javascript:;" title="Mission">Mission</a></li>
+                                            <li><a href="javascript:;" title="The Minister">The Minister</a></li>
+                                            <li><a href="javascript:;" title="The Deputy Ministers">The Deputy Ministers</a></li>
+                                            <li><a href="javascript:;" title="The Vice Minister">The Vice Minister</a></li>
+                                            <li><a href="javascript:;" title="Secretary General">Secretary General</a></li>
+                                            <li><a href="javascript:;" title="Organization">Organization</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">News Rooms</a>
+                                        <ul>
+                                            <li><a href="javascript:;" title="MOYW News">MOYW News</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">Laws & Regulations</a>
+                                        <ul>
+                                            <li><a href="javascript:;" title="Department of Medical Affairs">Department of Medical Affairs</a></li>
+                                            <li><a href="javascript:;" title="Department of Protective Sercices">Department of Protective Sercices</a></li>
+                                            <li><a href="javascript:;" title="Department of Social Assistance and Social Work">Department of Social Assistance and Social Work</a></li>
+                                            <li><a href="javascript:;" title="Social Insurance-related">Social Insurance-related</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">Statistics & Publications </a>
+                                        <ul>
+                                            <li><a href="javascript:;" title="Statistics">Statistics</a> </li>
+                                            <li><a href="javascript:;" title="Publications">Publications</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:;">Links</a>
+                                        <ul>
+                                            <li><a href="javascript:;" title="Medical Travel">Medical Travel</a></li>
+                                            <li><a href="javascript:;" title="Other Government Sites">Other Government Sites</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--FatFooter -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第七組 fatfoot end-->
+    </section>
+    <!--MainContent end -->
+    <!--Footer start -->
+    <footer id="Footer">
+        <div class="container">
+            <a class="accesskey" href="#aZ" id="aZ" accesskey="Z" title="頁尾區">:::</a>
+            <div class="row clearfix">
+                <div class="col-md-12">
+                    <p>Ministry of Health and Welfare Address: No.488, Sec. 6, Zhongxiao E. Rd., Nangang Dist., Taipei City 115, Taiwan (R.O.C.) Tel: +886-2-8590-6666</p>
+                    <!--  copyright start-->
+                    <div class="copyright">
+                        <ul>
+                            <li><a href="javascript:;">Information Security Policy</a></li>
+                            <li><a href="javascript:;">Policy on the Protection of Privacy Rights</a></li>
+                            <li><a href="javascript:;">Government Website Open Information Announcement</a></li>
+                        </ul>
+                    </div>
+                    <!--  copyright end-->
+                    <p>All Contents Copyright ©2016 Ministry of Health and Welfare </p>
+                    <div class="Mark">
+                        <ul>
+                            <li> <a href="javascript:;"><img src="images/footer_fb.png" alt=""></a> </li>
+                            <li> <a href="javascript:;"><img src="images/footer_youtube.png" alt=""></a> </li>
+                            <li class="hidden-xs"> <a href="javascript:;"><img src="images/aa.jpg" alt=""></a> </li>
+                            <li class="hidden-xs"> <a href="javascript:;"><img src="images/egov.png" alt=""></a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup">TOP</a>
+    <!--Footer end -->
+    <!--<a href="javascript:;" class="scrollup"><i class="icon-up-open"></i></a>-->
+    <script src="assets/js/jquery-1.11.2.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/module/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <!-- slick  -->
+    <script src="assets/module/slick/slick.js"></script>
+    <!-- slick 自訂 -->
+    <script src="js/slick-addscripts.js"></script>
+    <!-- Sidebar選單 -->
+    <script src="assets/js/bootstrap.offcanvas.js"></script>
+    <!-- fullcalendar -->
+    <script src="assets/module/fullcalendar-2.3.1/lib/moment.min.js"></script>
+    <script src="assets/module/fullcalendar-2.3.1/fullcalendar.min.js"></script>
+    <!-- scrollUp-->
+    <script src="assets/js/jquery.scrollUp.js"></script>
+    <!-- jq-easing -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <!-- 全部自訂檔 -->
+    <script src="js/customize_scripts.js"></script>
+    <!--top 自訂 -->
+    <script type="text/javascript" src="js/common.js"></script>
+    <!-- fatfooter js-->
+    <!-- Bootstrap JavaScript -->
+    <script src="js/BS3JS.min.js"></script>
+</body>
+
+</html>

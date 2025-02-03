@@ -1,0 +1,67 @@
+#basic-modal-content {
+    display: none
+}
+
+#simplemodal-overlay {
+    background-color: #000;
+    cursor: wait
+}
+
+#simplemodal-container {
+    width: 700px;
+    height: 550px;
+    color: #fff;
+    background-color: #000;
+    border: 10px solid #000;
+    padding: 12px
+}
+
+#simplemodal-container .simplemodal-data {
+    padding: 8px
+}
+
+#simplemodal-container code {
+    background: #141414;
+    border-left: 3px solid #65b43d;
+    color: #bbb;
+    display: block;
+    font-size: 0.75em;
+    margin-bottom: 12px;
+    padding: 4px 6px 6px
+}
+
+#simplemodal-container a {
+    color: #ddd
+}
+
+#simplemodal-container a.modalCloseImg {
+    background: url(../images/x.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline;
+    z-index: 3200;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer
+}
+
+#simplemodal-container h3 {
+    color: #84b8d9
+}
+
+#basic-modal-content iframe {
+    margin: 15px 0 15px;
+    width: 640px;
+    height: 315px
+}
+
+@media only screen and (max-width:767px) {
+    #simplemodal-container {
+        width: 90%;
+        height: 100%
+    }
+    #basic-modal-content iframe {
+        width: 100%
+    }
+}
