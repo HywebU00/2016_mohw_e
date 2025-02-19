@@ -2240,6 +2240,10 @@ input:focus {
 .listTb_02 table .aRight {
   text-align: right;
 }
+.listTb_02 table .date {
+  text-align: center;
+  white-space: nowrap;
+}
 .listTb_02 table tr td a {
   color: #0075a9;
   position: relative;
@@ -2296,8 +2300,9 @@ input:focus {
     background: #a487ca;
   }
   .listTb_02 table tr td.date {
-    color: #fff;
-    background: #bb9bc7;
+    color: #333;
+    /* background: #bb9bc7; */
+    text-align: left;
   }
   .listTb_02 table tr td.price {
     color: #333;
